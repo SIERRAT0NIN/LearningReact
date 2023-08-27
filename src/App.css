@@ -1,0 +1,55 @@
+#root {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9dbbb;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 20%;
+  list-style: none;
+  font-size: 1.2em;
+}
+.nav-link {
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #2e3840;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100%, 10%;
+  list-style: none;
+  font-size: 1.2em;
+  border-radius: 10px;
+  margin-top: 0%;
+}
+.about-me {
+  border: black solid;
+  font-size: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto;
+  padding: 1% 2%;
+  color: #2e3840;
+}
+.tab {
+  padding: 5%;
+}
+
+.tab img {
+  width: 25%;
+}
