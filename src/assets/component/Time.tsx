@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Time() {
-  setInterval(updateTime, 1000);
+  setInterval(updateTime);
   const now = new Date().toLocaleTimeString();
   const [Time, setTime] = useState(now);
   function updateTime() {

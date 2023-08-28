@@ -3,48 +3,65 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #f9dbbb;
+  background-color: #6096b4;
 }
 
 .navbar-nav {
+  margin-left: -5%;
+  margin-right: -5%;
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-
-  width: 100%;
-  margin: 0 auto;
-  padding: 20%;
   list-style: none;
   font-size: 1.2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #93bfcf;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
 }
+.MuiBox-root {
+  background-color: #bdcdd6;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
 .nav-link {
+  z-index: auto;
   text-decoration: none;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   color: #2e3840;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* background-color: #BDCDD6; */
+}
+.nav-link:hover {
+  color: #4e6e81;
 }
 .navdiv {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+
   width: 100%;
   margin: 0 auto;
   padding: 100%, 10%;
-  list-style: none;
   font-size: 1.2em;
   border-radius: 10px;
   margin-top: 0%;
 }
 .about-me {
-  border: black solid;
   font-size: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
   margin: 0 auto;
   padding: 1% 2%;
   color: #2e3840;
+  backdrop-filter: blur(10px);
+  background-color: #bdcdd6;
+  border-radius: 10px;
+  z-index: 0;
 }
 .tab {
   padding: 5%;
@@ -52,4 +69,20 @@
 
 .tab img {
   width: 25%;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+}
+.extra {
+  width: 25%;
+  position: sticky;
+  margin: 10px auto;
+  padding: 5% 10%;
+  color: #2e3840;
+  backdrop-filter: blur(10px);
+  background-color: #bdcdd6;
+  border-radius: 10px;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
 }

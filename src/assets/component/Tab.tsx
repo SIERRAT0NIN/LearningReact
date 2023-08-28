@@ -40,7 +40,7 @@ function a11yProps(index: number) {
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
 
@@ -58,6 +58,7 @@ export default function BasicTabs() {
             <Tab label="Project Three" {...a11yProps(2)} />
           </Tabs>
         </Box>
+        <p>Projects</p>
         <CustomTabPanel value={value} index={0}>
           <img
             src="https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBsYW50fGVufDB8fDB8fHww&w=1000&q=80"

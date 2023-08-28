@@ -1,6 +1,6 @@
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="container ">
+    <nav className="container shadow">
       <div className="container-fluid navdiv">
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav ">
@@ -27,5 +27,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;
