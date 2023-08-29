@@ -16,18 +16,3 @@
 //   );
 // }
 // export default Date;
-
-import React from "react";
-
-// Import the Date object
-import { Date } from "somewhere";
-// or simply use it directly without importing
-// import 'somewhere';
-
-function YourComponent() {
-  // Now you can use the Date object here
-  const currentDate = new Date();
-  // ... rest of your component code
-}
-
-export default YourComponent;

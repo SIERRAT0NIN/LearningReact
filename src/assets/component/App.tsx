@@ -1,25 +1,25 @@
 import "../../App.css";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Time from "./Time";
 import BasicTabs from "./Tab";
 // import Date from "./Date";
 import Extra from "./Extra";
 import Weather from "./Weather";
-import Footer from "./Footer";
+import Nav2 from "./Nav2";
+import Stack from "./Stack";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      {/* <Date /> */}
+      <Nav2 />
       <Weather />
       <Time />
       <AboutMe />
       <BasicTabs />
       <Extra />
       <Extra />
-      <Footer />
+      <Stack />
     </div>
   );
 }

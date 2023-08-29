@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Container } from "react-bootstrap";
 
 function Time() {
   setInterval(updateTime);
@@ -10,7 +11,7 @@ function Time() {
   }
   return (
     <div className="time">
-      <h3>{Time}</h3>
+      <Container>{Time}</Container>
     </div>
   );
 }

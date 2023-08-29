@@ -9,7 +9,7 @@
 .navbar-nav {
   margin-left: -5%;
   margin-right: -5%;
-  position: fixed;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -43,7 +43,6 @@
 }
 .navdiv {
   display: flex;
-
   width: 100%;
   margin: 0 auto;
   padding: 100%, 10%;
@@ -84,10 +83,23 @@
   background-color: #bdcdd6;
   border-radius: 10px;
   z-index: 0;
-
   flex-direction: column;
 }
 #projectTitle {
   font-family: monospace, arial;
   font-size: 2.5rem;
+}
+.stack {
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: monospace;
+  position: relative;
+  display: flex;
+}
+
+.stack li {
+  margin: 10%;
+  background-color: black !important;
+  border-radius: 100px;
+  height: 200px;
 }
