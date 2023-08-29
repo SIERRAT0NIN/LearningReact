@@ -56,12 +56,22 @@ export default function BasicTabs() {
             <Tab label="Project One" {...a11yProps(0)} />
             <Tab label="Project Two" {...a11yProps(1)} />
             <Tab label="Project Three" {...a11yProps(2)} />
+            {/* <Tab label="Project Four" {...a11yProps(3)} /> */}
           </Tabs>
         </Box>
-        <p>Projects</p>
+        <p id="projectTitle">Projects</p>
         <CustomTabPanel value={value} index={0}>
           <img
             src="https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBsYW50fGVufDB8fDB8fHww&w=1000&q=80"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1585328000852-779be6a6582b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBsYW50c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+            alt=""
+          />
+
+          <img
+            src="https://images.unsplash.com/photo-1529924736887-7f19bef8bc97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80"
             alt=""
           />
         </CustomTabPanel>
@@ -70,13 +80,22 @@ export default function BasicTabs() {
             src="https://images.unsplash.com/photo-1585328000852-779be6a6582b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBsYW50c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
             alt=""
           />
+          <img
+            src="https://images.unsplash.com/photo-1529924736887-7f19bef8bc97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80"
+            alt=""
+          />
         </CustomTabPanel>
+
         <CustomTabPanel value={value} index={2}>
           <img
             src="https://images.unsplash.com/photo-1529924736887-7f19bef8bc97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80"
             alt=""
           />
         </CustomTabPanel>
+        {/* 
+        <CustomTabPanel value={value} index={3}>
+          <img src="../../images/AI-Golden" alt="" />
+        </CustomTabPanel> */}
       </Box>
     </div>
   );

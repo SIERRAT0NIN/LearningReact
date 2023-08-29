@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 const API_KEY = "<b6ba3ed28ec0a2ed6183145e16564d56>";
 
@@ -26,8 +26,8 @@ class Weather extends Component {
   render() {
     return (
       <div>
-        {this.state.weatherData.name}
-        {this.state.weatherData.main.temp}
+        {/* {this.state.weatherData.name}
+        {this.state.weatherData.main.temp} */}
       </div>
     );
   }

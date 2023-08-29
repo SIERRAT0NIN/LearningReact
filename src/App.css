@@ -75,14 +75,19 @@
 }
 .extra {
   width: 25%;
-  position: sticky;
-  margin: 10px auto;
-  padding: 5% 10%;
+  position: relative;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 5% 5%;
   color: #2e3840;
   backdrop-filter: blur(10px);
   background-color: #bdcdd6;
   border-radius: 10px;
   z-index: 0;
-  display: flex;
-  flex-direction: row;
+
+  flex-direction: column;
+}
+#projectTitle {
+  font-family: monospace, arial;
+  font-size: 2.5rem;
 }
