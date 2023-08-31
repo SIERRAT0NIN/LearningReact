@@ -7,7 +7,7 @@ import BasicTabs from "./Tab";
 import Extra from "./Extra";
 import Weather from "./Weather";
 import Nav2 from "./Nav2";
-import Stack from "./Stack";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <BasicTabs />
       <Extra />
       <Extra />
-      <Stack />
+      <Footer />
     </div>
   );
 }

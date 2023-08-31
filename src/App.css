@@ -103,3 +103,15 @@
   border-radius: 100px;
   height: 200px;
 }
+.footerBtn {
+  margin: 15px;
+  background-color: #bdcdd6;
+  box-shadow: 0 0 10px rgba(111, 0, 255, 0.9);
+
+  border-radius: 10px;
+}
+
+/* .icon {
+  
+  
+} */
